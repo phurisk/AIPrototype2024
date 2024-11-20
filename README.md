@@ -9,7 +9,7 @@ Ai Prototyping 2024 Phuris Kruacharee Student ID: 643020514-7
 
 # 👾 Contents
 <details> 
-  <summary>ᴜʙᴜɴᴛᴜ ᴄᴏᴍᴍᴀɴᴅ ʟɪɴᴇ </summary>
+  <summary> Test </summary>
   
   abc
 
