@@ -76,8 +76,9 @@ Ai Prototyping 2024 Phuris Kruacharee Student ID: 643020514-7
   ```
 ## 3. การ copy และการย้าย file/folder
 ที่อยู่ของ File/Folder ในตอนสุดท้าย
-![image](![output](https://github.com/user-attachments/assets/092d7774-6fe4-40ca-9156-c58d49079b79)
-)
+
+![output](https://github.com/user-attachments/assets/a87cd1dc-052c-4afb-bd53-7564c947696f)
+
 * หลักการ
   ```
   $cp {ที่อยู่ต้นทางของ file/folder ที่ต้องการคัดลอก} {ที่อยู่ปลายทางที่ต้องการที่จะคัดลอก file/folder ไป}
