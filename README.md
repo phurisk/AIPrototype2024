@@ -11,5 +11,19 @@ Ai Prototyping 2024 Phuris Kruacharee Student ID: 643020514-7
 <details> 
   <summary> ᴜʙᴜɴᴛᴜ ᴄᴏᴍᴍᴀɴᴅ ʟɪɴᴇ </summary>
   
-  abc
+# Command Line พื้นฐานบน Ubuntu
+## 1. คำสั่งพื้นฐาน
+* list ทุกๆ file/folder ที่อยู่ใน folder ปัจจุบัน
+  ```
+  $ls
+  ```
+  ```
+  $ls -{option}
+  #ex
+  $ls -ltr # บอกรายบละเอียดไฟล์
+  ```
+* ระบุตำแหน่งปัจจุบันที่เราอยู่ในระบบ
+  ```
+  $pwd
+  ```  
 
