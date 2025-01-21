@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Index</title>
+    <!-- เชื่อมไฟล์ CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+</head>
+<body>
+    <h1>Status</h1>
+
+    <div class="status-container">
+        {% if name %}
+            <p>Hello, <span class="name">{{ name }}</span>!</p>
+        {% else %}
+            <p class="no-name">Please provide your name.</p>
+            <button onclick="window.location.href='/index'">Go to Form</button>
+        {% endif %}
+    </div>
+</body>
+</html>
