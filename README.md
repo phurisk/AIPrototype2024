@@ -223,6 +223,7 @@ conda remove --name ai_project --all
 
 
 <details> 
+  <summary> Web Service </summary>
 # Web Service for Messaging
 
 This project demonstrates a simple web service that allows sending messages between users. It consists of two main components:
