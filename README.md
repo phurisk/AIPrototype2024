@@ -304,5 +304,5 @@ else:
 # 🏠 Homework
 | Homework | Description | Files |
 |:--------:|:-----------|:------|
-| HW1 | Calculate how many days you have lived since your birth date. | `myfirst.py` |
-| HW2 | Send messages to friends using the server. | `firstflask.py` & `call_web_service.py` |
+| HW1 | คำนวณจำนวนวันตั้งแต่วันเกิดจนถึงวันปัจจุบัน | `myfirst.py` |
+| HW2 | ส่งข้อความด้วย Web Service | `firstflask.py` & `call_web_service.py` |
