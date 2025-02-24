@@ -177,6 +177,8 @@ Azure Virtual Machines เป็นบริการที่สามารถ
 2. ใช้คำสั่ง SSH เพื่อเข้า VM:
    ```sh
    ssh phu@<your-vm-ip>
+</details>
+
 
 
 <details> 
@@ -216,6 +218,8 @@ conda deactivate
 ```sh
 conda remove --name ai_project --all
 ```
+</details>
+
 
 # 🏠 Homework
 | Homework | Description | Files |
