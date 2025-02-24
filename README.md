@@ -189,7 +189,7 @@ Azure Virtual Machines เป็นบริการที่สามารถ
 ### 📌 **1. ติดตั้ง Conda**
  Conda สามารถติดตั้งได้จาก:
 - **Miniconda** 👉 [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
-  หรือ
+  #### หรือ
 - **Anaconda** 👉 [https://www.anaconda.com/products/distribution](https://www.anaconda.com/products/distribution)
 
 ตรวจสอบว่า Conda ติดตั้งสำเร็จหรือไม่:
