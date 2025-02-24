@@ -16,7 +16,7 @@ Ai Prototyping 2024 Phuris Kruacharee Student ID: 643020514-7
 <details> 
   <summary> ᴜʙᴜɴᴛᴜ ᴄᴏᴍᴍᴀɴᴅ ʟɪɴᴇ </summary>
   
-# Command Line พื้นฐานบน Ubuntu
+## 👨🏻‍💻 Command Line พื้นฐานบน Ubuntu
 ## 1. คำสั่งพื้นฐาน
 * list ทุกๆ file/folder ที่อยู่ใน folder ปัจจุบัน
   ```
@@ -225,7 +225,7 @@ conda remove --name ai_project --all
 <details> 
   <summary> ᴡᴇʙ ꜱᴇʀᴠɪᴄᴇ </summary>
   
-# Web Service for Messaging
+## 💬 Web Service for Messaging
 
 เป็น Web Service ที่สามารถส่งข้อความระหว่างผู้ใช้ได้ โดยประกอบไปด้วย 2 ส่วนหลัก:
 
