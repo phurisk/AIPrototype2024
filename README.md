@@ -147,7 +147,6 @@ cp ./filex ~/testfolder1/testfolder1_1/testfolder1_1_2/filey
 </details>
 
 
-# 💼 Contents
 <details> 
   <summary> ᴠɪʀᴛᴜᴀʟ ᴍᴀᴄʜɪɴᴇꜱ </summary>
 
