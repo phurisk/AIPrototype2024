@@ -297,7 +297,7 @@ if x.status_code == 200:
     print(f"การส่งข้อความสำเร็จ! คำตอบจาก API: {x.text}")
 else:
     print(f"[ERROR] การส่งข้อความล้มเหลว! รหัสสถานะ: {x.status_code}")
-
+```
 
 </details>
 
