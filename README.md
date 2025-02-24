@@ -227,26 +227,26 @@ conda remove --name ai_project --all
   
 # Web Service for Messaging
 
-This project demonstrates a simple web service that allows sending messages between users. It consists of two main components:
+เป็น Web Service ที่สามารถส่งข้อความระหว่างผู้ใช้ได้ โดยประกอบไปด้วย 2 ส่วนหลัก:
 
-1. **Client-side script (call_web_service.py)**: Allows the user to input a message and select a recipient to send it to.
-2. **Server-side API (firstflask.py)**: Receives the message, logs the details, and sends a confirmation response.
+1. **สคริปต์ฝั่งผู้ใช้ (call_web_service.py)**: ช่วยให้ผู้ใช้ป้อนข้อความและเลือกผู้รับเพื่อส่งข้อความ
+2. **API ฝั่งเซิร์ฟเวอร์ (firstflask.py)**: รับข้อความจากผู้ใช้ บันทึกรายละเอียด และส่งคำตอบกลับไปยืนยันการรับข้อความ
 
-## Components
+## ส่วนประกอบ
 
-### 1. Client-side Script (`call_web_service.py`)
+### 1. สคริปต์ฝั่งผู้ใช้ (`call_web_service.py`)
 
-The client script interacts with the server-side API to send a message. Here's how it works:
+สคริปต์ฝั่งผู้ใช้จะติดต่อกับ API ฝั่งเซิร์ฟเวอร์เพื่อส่งข้อความ โดยมีขั้นตอนดังนี้:
 
-- Prompts the user to input a message.
-- Allows the user to choose between two recipients: Tar or Ploy.
-- Sends the selected message to the server using an HTTP POST request.
+- ผู้ใช้จะป้อนข้อความที่ต้องการส่ง
+- ผู้ใช้สามารถเลือกผู้รับได้ 2 คน: Tar หรือ Ploy
+- ส่งข้อความที่เลือกไปยังเซิร์ฟเวอร์ผ่านคำขอ HTTP POST
 
-The script sends the following data to the server:
-- `msg`: The message from the user.
-- `ผู้รับ`: The selected recipient.
-- `ip`: The IP address of the recipient.
-- `ผู้ส่ง`: The name of the sender.
+สคริปต์จะส่งข้อมูลต่อไปนี้ไปยังเซิร์ฟเวอร์:
+- `msg`: ข้อความที่ผู้ใช้ป้อน
+- `ผู้รับ`: ผู้รับข้อความที่เลือก
+- `ip`: ที่อยู่ IP ของผู้รับ
+- `ผู้ส่ง`: ชื่อของผู้ส่งข้อความ
 
 **Code**:
 ```python
