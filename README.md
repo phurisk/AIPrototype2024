@@ -178,6 +178,45 @@ Azure Virtual Machines เป็นบริการที่สามารถ
    ```sh
    ssh phu@<your-vm-ip>
 
+
+<details> 
+  <summary> ᴇɴᴠɪʀᴏɴᴍᴇɴᴛ ᴄᴏɴᴅᴀ </summary>
+
+## 🐍 การใช้งาน Conda Environment เบื้องต้น
+
+### 📌 **1. ติดตั้ง Conda**
+ Conda สามารถติดตั้งได้จาก:
+- **Miniconda** 👉 [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
+  หรือ
+- **Anaconda** 👉 [https://www.anaconda.com/products/distribution](https://www.anaconda.com/products/distribution)
+
+ตรวจสอบว่า Conda ติดตั้งสำเร็จหรือไม่:
+```sh
+conda --version
+```
+
+### 📌 **2. การสร้าง Environment ใหม่**
+
+```sh
+conda create --name ai_project python=3.9
+```
+### 📌 **3. การ Activate และ Deactivate Environment**
+การ Activate Environment
+```sh
+conda activate ai_project
+```
+การ Deactivate Environment
+```sh
+conda deactivate
+```
+
+### 📌 **4. การลบ Environment**
+
+การ การลบ Environment
+```sh
+conda remove --name ai_project --all
+```
+
 # 🏠 Homework
 | Homework | Description | Files |
 |:--------:|:-----------|:------|
