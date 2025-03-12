@@ -312,12 +312,15 @@ else:
 **Activation Function** ทำหน้าที่บีบค่า ไม่ให้ค่าเยอะจนโมเดลระเบิด  
 
 ## 1. ลักษณะของ Neural Networks (Neural Networks Characteristics)
+![ภาพ](https://github.com/user-attachments/assets/6cdd58c9-fcaa-494b-94d9-da7a4cbb96bb)
+
 
 - **แรงบันดาลใจ:** เลียนแบบการทำงานของสมองมนุษย์ในการเรียนรู้และแก้ปัญหา  
 - **องค์ประกอบ:** ประกอบด้วยโหนด (**neurons**) ที่เชื่อมต่อกันเป็นชั้น (**layers**)  
 - **การเรียนรู้:** เรียนรู้จากข้อมูลโดยการปรับค่าน้ำหนัก (**weights**) และค่าไบแอส (**biases**) ระหว่างโหนด  
 
 ## 2. พอร์เซปตรอน (Perceptron)
+![ภาพ](https://github.com/user-attachments/assets/a46d0c81-ccb5-4594-a53a-d4cf513176bb)
 
 - **หน่วยพื้นฐาน:** เป็นหน่วยประมวลผลพื้นฐานที่สุดของ **Neural Network**  
 - **การทำงาน:**  
@@ -328,6 +331,7 @@ else:
 - **ข้อจำกัด:** สามารถแก้ปัญหาได้เฉพาะที่ **linear separable** เท่านั้น  
 
 ## 3. Artificial Neural Network (ANN)
+![ภาพ](https://github.com/user-attachments/assets/91f996c7-4c33-4f2f-8327-bfe900868e63)
 
 - **เครือข่ายประสาทเทียม:** ประกอบด้วยหลายชั้นของ **Perceptron**  
 - **Feedforward:** ข้อมูลไหลไปข้างหน้าจากชั้นอินพุตไปยังชั้นเอาต์พุต  
@@ -339,6 +343,7 @@ else:
   ช่วยให้ ANN สามารถแก้ปัญหา **non-linear** ได้  
 
 ## 4. Convolutional Neural Networks (CNN)
+![ภาพ](https://github.com/user-attachments/assets/ac24555d-4592-4e55-acc2-60a14c9ac103)
 
 - **ออกแบบมาสำหรับ:** ประมวลผลข้อมูลที่มีโครงสร้างแบบ **Grid** เช่น **รูปภาพ**  
 - **Convolutional Layers:** ใช้ **filters** ขนาดเล็กเลื่อนไปบนอินพุตเพื่อตรวจจับ **features**  
