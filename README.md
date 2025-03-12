@@ -306,7 +306,7 @@ else:
 </details>
 
 <details> 
-  <summary> Deep Learning Overview </summary>
+  <summary> ᴅᴇᴇᴘ ʟᴇᴀʀɴɪɴɢ ᴏᴠᴇʀᴠɪᴇᴡ </summary>
 
 # Deep Learning Overview
 
