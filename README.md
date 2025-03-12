@@ -1,8 +1,9 @@
 # AIPrototype2024
 Ai Prototyping 2024 Phuris Kruacharee Student ID: 643020514-7
 
-WEB_Project:https://phurisk.github.io/DentAnalyzer/
-WEB_APP:http://20.195.15.152:5000/homelogin
+- WEB_Project:https://phurisk.github.io/DentAnalyzer/
+
+- WEB_APP:http://20.195.15.152:5000/homelogin
 
 # 📅 Calendar
 |  ᴄʟᴀꜱꜱ  |     ᴅᴀᴛᴇ      |               ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ                        | ʟᴇᴄᴛᴜʀᴇ  | 
